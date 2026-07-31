@@ -13,7 +13,7 @@ function DoctorApp() {
   return (
     <div className="app-shell">
       <div className="top-nav">
-        <h1>Cervical screening assistant</h1>
+        <h1>Cervical Cancer Screening Assistant</h1>
         <div className="nav-links">
           <NavLink to="/" end className={({ isActive }) => (isActive ? "active" : "")}>
             Patient intake
